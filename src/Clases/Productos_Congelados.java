@@ -30,7 +30,7 @@ public class Productos_Congelados extends Producto {
     }
 
     public float produccion() {
-        final  float precio_caja = 50.00F;
+        final  float precio_caja = 60.00F;
         return getCantidad_producida() * precio_caja;
     }
 }
